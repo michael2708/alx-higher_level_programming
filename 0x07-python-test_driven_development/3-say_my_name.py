@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-'''
+"""
 3-say_my_name.py
 Contains method that prints out "My name is [full name]"
 Takes in two strings: first and last name
-'''
+"""
 
 
 def say_my_name(first_name, last_name=""):

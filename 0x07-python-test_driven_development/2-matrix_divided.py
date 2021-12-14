@@ -1,12 +1,12 @@
 #!/sur/bin/python3
-'''
+"""
 2-matrix_divided.py receives a matrix as a list and divisor
 then return a new matrix
-'''
+"""
 
 
 def matrix_divided(matrix, div):
-    ''' Returns new matrix '''
+    """ Returns new matrix """
     if not isinstance(div, (int, float)):
         raise TypeError("div must be a number")
     if div == 0:
