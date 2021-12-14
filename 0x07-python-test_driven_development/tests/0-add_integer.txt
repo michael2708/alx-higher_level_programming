@@ -10,7 +10,8 @@ First import method
 100
 >>> print(add_integer(100.3, -2))
 98
-
+>>> print(add_integer(1))
+99
 >>> print(add_integer(4, "School"))
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -22,4 +23,8 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   File "/root/alx-higher_level_programming/0x07-python-test_driven_development/0-add_integer.py", line 14, in add_integer
     raise TypeError("a must be an integer")
+TypeError: a must be an integer
+>>> print(add_integer(None, None))
+Traceback (most recent call last):
+...
 TypeError: a must be an integer

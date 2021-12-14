@@ -3,8 +3,9 @@
 0-add_integer.py has two argumenst a and b'
 which must be integers or floats,
 otherwise raise a TypeError.
-otherwise returns sum of a and b as integers 
+otherwise returns sum of a and b as integers
 '''
+
 
 def add_integer(a, b=98):
     '''
