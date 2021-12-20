@@ -11,6 +11,14 @@
 [1, 2, 3, 4, 5]
 >>> print(my_list)
 [1, 4, 2, 3, 5]
+>>> solo = MyList()
+>>> solo.append(-99999)
+>>> print(solo)
+[-99999]
+>>> solo.print_sorted()
+[-99999]
+>>> print(solo)
+[-99999]
 >>> empty = MyList()
 >>> print(empty)
 []
