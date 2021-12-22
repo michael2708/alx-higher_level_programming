@@ -4,10 +4,10 @@ Module 9-student.py
 """
 
 
-class Student:
+class Student():
     """ defines a student """
 
-    def _init_(self, first_name, last_name, age):
+    def __init__(self, first_name, last_name, age):
         """ initialization """
 
         self.first_name = first_name
@@ -17,4 +17,3 @@ class Student:
     def to_json(self):
         """Get a dictionary representation of the Student."""
         return self.__dict__
-    
