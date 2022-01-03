@@ -86,7 +86,7 @@ class Rectangle(Base):
             self.__class__.__name__, self.id, self.__x, self.__y,
             self.__width, self.__height)
 
-     def display(self):
+    def display(self):
         """Print the Rectangle using the `#` character."""
         if self.width == 0 or self.height == 0:
             print("")
@@ -152,9 +152,3 @@ class Rectangle(Base):
             "x": self.x,
             "y": self.y
         }
-
-    def __str__(self):
-        """Return the print() and str() representation of the Rectangle."""
-        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
-                                                       self.x, self.y,
-                                                       self.width, self.height)
